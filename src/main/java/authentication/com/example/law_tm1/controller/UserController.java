@@ -1,12 +1,10 @@
 package authentication.com.example.law_tm1.controller;
 
-import authentication.com.example.law_tm1.model.User;
-import authentication.com.example.law_tm1.repository.UserDao;
+import authentication.com.example.law_tm1.model.redis.User;
+import authentication.com.example.law_tm1.repository.redis.UserDao;
 import authentication.com.example.law_tm1.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("")

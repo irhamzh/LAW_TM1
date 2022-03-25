@@ -1,6 +1,6 @@
-package authentication.com.example.law_tm1.repository;
+package authentication.com.example.law_tm1.repository.redis;
 
-import authentication.com.example.law_tm1.model.Token;
+import authentication.com.example.law_tm1.model.redis.Token;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;

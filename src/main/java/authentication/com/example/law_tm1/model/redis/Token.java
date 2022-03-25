@@ -1,4 +1,4 @@
-package authentication.com.example.law_tm1.model;
+package authentication.com.example.law_tm1.model.redis;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

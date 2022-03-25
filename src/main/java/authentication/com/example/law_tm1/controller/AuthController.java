@@ -1,9 +1,9 @@
 package authentication.com.example.law_tm1.controller;
 
-import authentication.com.example.law_tm1.model.User;
+import authentication.com.example.law_tm1.model.redis.User;
 import authentication.com.example.law_tm1.response.ErrorResponse;
-import authentication.com.example.law_tm1.model.Token;
-import authentication.com.example.law_tm1.repository.TokenDao;
+import authentication.com.example.law_tm1.model.redis.Token;
+import authentication.com.example.law_tm1.repository.redis.TokenDao;
 import authentication.com.example.law_tm1.response.UserResponse;
 import authentication.com.example.law_tm1.service.TokenService;
 import authentication.com.example.law_tm1.service.UserService;
@@ -15,7 +15,6 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 @RestController
 @RequestMapping("/oauth")

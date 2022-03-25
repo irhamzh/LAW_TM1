@@ -1,6 +1,6 @@
 package authentication.com.example.law_tm1.service;
 
-import authentication.com.example.law_tm1.model.User;
+import authentication.com.example.law_tm1.model.redis.User;
 
 import java.util.List;
 

@@ -1,11 +1,10 @@
-package authentication.com.example.law_tm1.repository;
+package authentication.com.example.law_tm1.repository.redis;
 
-import authentication.com.example.law_tm1.model.User;
+import authentication.com.example.law_tm1.model.redis.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Repository

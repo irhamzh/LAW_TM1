@@ -1,4 +1,4 @@
-package authentication.com.example.law_tm1.model;
+package authentication.com.example.law_tm1.model.redis;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

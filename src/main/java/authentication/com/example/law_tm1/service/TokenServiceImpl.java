@@ -1,7 +1,7 @@
 package authentication.com.example.law_tm1.service;
 
-import authentication.com.example.law_tm1.model.Token;
-import authentication.com.example.law_tm1.repository.TokenDao;
+import authentication.com.example.law_tm1.model.redis.Token;
+import authentication.com.example.law_tm1.repository.redis.TokenDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
